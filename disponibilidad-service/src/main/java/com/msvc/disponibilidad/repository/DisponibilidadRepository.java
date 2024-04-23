@@ -6,12 +6,13 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 
+import java.util.List;
 import java.util.Optional;
 
 
 public interface DisponibilidadRepository extends JpaRepository<Disponibilidad, Long> {
 
-    @Query("SELECT d FROM Disponibilidad d WHERE d.fechaOcupada = :fecha AND d.horaOcupada = :hora AND d.medico = :medico")
-    Optional<Disponibilidad> findByFechaHora(@Param("fecha") String fechaOcupada, @Param("hora") String horaOcupada, @Param("medico") String medico);
+    @Query("SELECT d FROM Disponibilidad d WHERE d.fechaOcupada IN :fechas AND d.horaOcupada IN :horas AND d.medico IN :medico")
+    List<Disponibilidad> findByFechaHora(@Param("fecha") List<String> fechaOcupada, @Param("hora") List<String> horaOcupada, @Param("medico") List<String> medico);
 
 }

@@ -35,8 +35,6 @@ y
 Icita-service/src/main/java/com/msvc/cita/dto/CitaEspecificacionesDto.java,3\9\3978f4ce22827c36e639096085370513f2bc8b17
 q
 Acita-service/src/main/java/com/msvc/cita/service/CitaService.java,8\8\88b97284a4bcaa6d5a27405dea4d03e964691436
-x
-Hcita-service/src/main/java/com/msvc/cita/controller/CitaCrontroller.java,8\3\83a034ebd7045fc22f88db13088b1403043e63f4
 w
 Gcita-service/src/main/java/com/msvc/cita/controller/CitaController.java,7\a\7a38f94114fd2264c7060709186cd1b7d35126cd
 t
@@ -49,9 +47,15 @@ bdisponibilidad-service/src/main/java/com/msvc/disponibilidad/DisponibilidadServ
 Vdisponibilidad-service/src/main/java/com/msvc/disponibilidad/model/Disponibilidad.java,9\e\9ed5f78a77878c428cb107740faad1e0db51ebc5
 ï
 edisponibilidad-service/src/main/java/com/msvc/disponibilidad/repository/DisponibilidadRepository.java,8\e\8e94ed2205786eee457a5cf18fe039dec571ee40
-í
-bdisponibilidad-service/src/main/java/com/msvc/disponibilidad/service/DisponibilidadRepository.java,4\9\49f936fe996fbcf08f595a2fac5a9f0cc674705e
 è
 _disponibilidad-service/src/main/java/com/msvc/disponibilidad/service/DisponibilidadService.java,9\c\9ce6b1e021d0aa4ccd862e1285949aca13167094
 ï
 edisponibilidad-service/src/main/java/com/msvc/disponibilidad/controller/DisponibilidadController.java,1\d\1d9214dc4ef575215211d92bcfa4f955180efbc2
+u
+Edisponibilidad-service/src/main/java/com/msvc/disponibilidad/dto.java,a\2\a27762982651c482af76a2c41a8c057e82b18975
+å
+\disponibilidad-service/src/main/java/com/msvc/disponibilidad/dto/DisponibilidadResponse.java,c\5\c5a27cdc461f9e59cd292b5d2d8ce215f01d6fe5
+x
+Hcita-service/src/main/java/com/msvc/cita/dto/DisponibilidadResponse.java,8\3\834c0eaacf747cc146e088f3f6d5058c21912854
+t
+Dcita-service/src/main/java/com/msvc/cita/config/WebClientConfig.java,9\8\981b3b52f034d0037d2e80fc0266861c8cc05132

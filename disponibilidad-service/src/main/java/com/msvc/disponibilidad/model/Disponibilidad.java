@@ -20,6 +20,7 @@ public class Disponibilidad {
     private String medico;
     private String fechaOcupada;
     private String horaOcupada;
+    public boolean citaConfirmada;
 
 
 }

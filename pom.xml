@@ -20,6 +20,7 @@
     <modules>
         <module>medico-service</module>
         <module>cita-service</module>
+        <module>disponibilidad-service</module>
     </modules>
 
     <properties>
